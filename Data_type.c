@@ -33,6 +33,6 @@ int main(){
   char ch ='a';
   printf("number  is  %d \n",number);
   printf("charter is  %c \n",ch);
-  printf("double number is %lf",number3);
+  printf("double number is %lf \n",number3);
   printf("float number is %f",number2);
 }
