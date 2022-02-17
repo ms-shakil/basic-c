@@ -8,4 +8,5 @@ int main()
     scanf("%d",&b);
     c= a+b;
     printf("Sum %d + %d = %d ",a,b,c);
+    printf("None");
 }
