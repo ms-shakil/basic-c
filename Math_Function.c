@@ -12,3 +12,6 @@ int main(){
     printf(" squreroot number%lf \n",num2);
     printf("Power number %lf",num3);
 }
+/* there also have more function
+like  =====>  log, log10,sin ,cos, round,trunc,cili,floor,
+*/
