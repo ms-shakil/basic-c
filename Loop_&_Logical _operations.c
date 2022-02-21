@@ -18,5 +18,53 @@ int main()
        printf("%d\n",j);
 }
 }
+// Using for loop and conditons
+#include<stdio.h>
+int main (){
+    int num ;
+    printf ("Please Enther the number :\n");
+    scanf("%d",&num);
+    for (int i = 1 ;i <=num;i++){
+        if (i% 3 == 0 && i %5 == 0 ){
+            printf("Fizzbuzz \n");
+        }
+        else if(i % 3 == 0 ){
+            printf("Fizz \n");
+        }
+        else if (i % 5 == 0){
+            printf("Buzz \n");
+        }
+        else {
+            printf("This is wrong number \n");
+        }
+    }
+}
 
+
+
+/// Use While loop and condition
+
+#include<stdio.h>
+int main (){
+    int num1 , i=1;
+    printf("Enter the number:\n");
+    scanf("%d", &num1);
+    while (i <=num1 )
+    {
+             if (i% 3 == 0 && i %5 == 0 ){
+            printf("Fizzbuzz \n");
+        }
+        else if(i % 3 == 0 ){
+            printf("Fizz \n");
+        }
+        else if (i % 5 == 0){
+            printf("Buzz \n");
+        }
+        else {
+            printf("This is wrong number \n");
+        }
+        i+=1;
+    }
+    
+}
 
